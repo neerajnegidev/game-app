@@ -15,6 +15,13 @@ Created below tables in MongoDB
 5) card_master ==> it contains 52 cards and by using it i have prepared deck of 52*3.
 
 
-
+Installation Steps=>
+  1. clone github repo using https://github.com/neerajnegidev/game-app.git
+  2. cd /game-app
+  3. npm install
+  4. create mongo database, putting db dump into /db-dump/game-app you may create DB using this dump.
+  4. Do the mongo db configuration from file path game-app\src\datasources\mongo.datasource.ts
+  5. npm start
+  6. Open http://localhost:8080/explorer/#/  it will open implemnted API's in GUI.
 
 
