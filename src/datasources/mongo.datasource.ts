@@ -1,14 +1,17 @@
 import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
+
+//mongodb+srv://game-app:<password>@cluster0-6fxkm.mongodb.net/test
+
 const config = {
   name: 'mongo',
   connector: 'mongodb',
-  url: '',
-  host: 'localhost',
+  url: 'mongodb+srv://cluster0-6fxkm.mongodb.net/game-app',
+  host: 'cluster0-6fxkm.mongodb.net',
   port: 27017,
-  user: '',
-  password: '',
+  user: 'game-app',
+  password: 'game-app',
   database: 'game-app',
   useNewUrlParser: true
 };

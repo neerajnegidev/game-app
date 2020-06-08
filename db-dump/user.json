@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "5eda1a251009a00c62a3ac0d"
+  },
+  "name": "Neeraj",
+  "type": "player",
+  "additional_details": [
+    {
+      "mobile": "7503429170",
+      "country": "india"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-06-05T10:10:45.635Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-05T10:10:45.635Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eda1a251009a00c62a3ac0e"
+  },
+  "name": "Aman",
+  "type": "player",
+  "additional_details": [
+    {
+      "mobile": "7503429171",
+      "country": "india"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-06-05T10:10:45.635Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-05T10:10:45.635Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eda1a251009a00c62a3ac0f"
+  },
+  "name": "Tom",
+  "type": "dealer",
+  "additional_details": [
+    {
+      "mobile": "7503429172",
+      "country": "us"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-06-05T10:10:45.635Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-05T10:10:45.635Z"
+  }
+}]

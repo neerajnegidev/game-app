@@ -1,0 +1,365 @@
+[{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd0"
+  },
+  "value": "1",
+  "name": "A",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd1"
+  },
+  "value": "2",
+  "name": "2",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd2"
+  },
+  "value": "3",
+  "name": "3",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd3"
+  },
+  "value": "4",
+  "name": "4",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd4"
+  },
+  "value": "5",
+  "name": "5",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd5"
+  },
+  "value": "6",
+  "name": "6",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd6"
+  },
+  "value": "7",
+  "name": "7",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd7"
+  },
+  "value": "8",
+  "name": "8",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd8"
+  },
+  "value": "9",
+  "name": "9",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abd9"
+  },
+  "value": "10",
+  "name": "10",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abda"
+  },
+  "value": "11",
+  "name": "J",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abdb"
+  },
+  "value": "12",
+  "name": "Q",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abdc"
+  },
+  "value": "13",
+  "name": "K",
+  "suit": "Hearts"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abdd"
+  },
+  "value": "1",
+  "name": "A",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abde"
+  },
+  "value": "2",
+  "name": "2",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abdf"
+  },
+  "value": "3",
+  "name": "3",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe0"
+  },
+  "value": "4",
+  "name": "4",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe1"
+  },
+  "value": "5",
+  "name": "5",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe2"
+  },
+  "value": "6",
+  "name": "6",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe3"
+  },
+  "value": "7",
+  "name": "7",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe4"
+  },
+  "value": "8",
+  "name": "8",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe5"
+  },
+  "value": "9",
+  "name": "9",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe6"
+  },
+  "value": "10",
+  "name": "10",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe7"
+  },
+  "value": "11",
+  "name": "J",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe8"
+  },
+  "value": "12",
+  "name": "Q",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abe9"
+  },
+  "value": "13",
+  "name": "K",
+  "suit": "Diamonds"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abea"
+  },
+  "value": "1",
+  "name": "A",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abeb"
+  },
+  "value": "2",
+  "name": "2",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abec"
+  },
+  "value": "3",
+  "name": "3",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abed"
+  },
+  "value": "4",
+  "name": "4",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abee"
+  },
+  "value": "5",
+  "name": "5",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abef"
+  },
+  "value": "6",
+  "name": "6",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf0"
+  },
+  "value": "7",
+  "name": "7",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf1"
+  },
+  "value": "8",
+  "name": "8",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf2"
+  },
+  "value": "9",
+  "name": "9",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf3"
+  },
+  "value": "10",
+  "name": "10",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf4"
+  },
+  "value": "11",
+  "name": "J",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf5"
+  },
+  "value": "12",
+  "name": "Q",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf6"
+  },
+  "value": "13",
+  "name": "K",
+  "suit": "Spades"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf7"
+  },
+  "value": "1",
+  "name": "A",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf8"
+  },
+  "value": "2",
+  "name": "2",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abf9"
+  },
+  "value": "3",
+  "name": "3",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abfa"
+  },
+  "value": "4",
+  "name": "4",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abfb"
+  },
+  "value": "5",
+  "name": "5",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abfc"
+  },
+  "value": "6",
+  "name": "6",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abfd"
+  },
+  "value": "7",
+  "name": "7",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abfe"
+  },
+  "value": "8",
+  "name": "8",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3abff"
+  },
+  "value": "9",
+  "name": "9",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3ac00"
+  },
+  "value": "10",
+  "name": "10",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3ac01"
+  },
+  "value": "11",
+  "name": "J",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3ac02"
+  },
+  "value": "12",
+  "name": "Q",
+  "suit": "Clubs"
+},{
+  "_id": {
+    "$oid": "5eda0c7d1009a00c62a3ac03"
+  },
+  "value": "13",
+  "name": "K",
+  "suit": "Clubs"
+}]
