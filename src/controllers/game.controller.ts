@@ -90,7 +90,7 @@ export class GameController {
     return deck;
   }
 
-
+  // API to get player cards corresponding to a game
   @get('/api/game/{game_id}/playercards/{player_id}', {
     responses: {
       '200': {
@@ -107,7 +107,7 @@ export class GameController {
     return await this.playerGameHistoryRepository.find(where);
   }
 
-  // endpoint to draw a card from current deck for player
+  // API to draw a card from current deck for player
   @get('/api/game/{game_id}/deck/draw/{player_id}', {
     responses: {
       '200': {
@@ -127,16 +127,17 @@ export class GameController {
     const getOldCards = await this.playerGameHistoryRepository.findOne({"where": {$and: [{player_id: player_id}, {game_id: game_id}]}});
     const newCards = getOldCards?.cards
     const id = getOldCards?._id;
-    newCards?.push(shuffleDeck[0]);
+    const shuffledCard = shuffleDeck[0];
+    newCards?.push(shuffledCard);
     shuffleDeck.splice(0, 1);
     // lets update current game deck as player draw a card from current deck
     await this.gameCardsDeckRepository.updateById(gameCardId, {cards: shuffleDeck});
     // lets update player card history as player draw a card from current deck
     await this.playerGameHistoryRepository.updateById(id, {cards: newCards});
-    return newCards;
+    return shuffledCard;
   }
 
-  // endpoint to draw a card from current deck for dealer
+  // API draw a card from current deck for dealer
   @get('/api/game/{game_id}/deck/draw/{dealer_id}', {
     responses: {
       '200': {
@@ -156,16 +157,17 @@ export class GameController {
     const getOldCards = await this.playerGameHistoryRepository.findOne({"where": {$and: [{player_id: dealer_id}, {game_id: game_id}]}});
     const newCards = getOldCards?.cards
     const id = getOldCards?._id;
-    newCards?.push(shuffleDeck[0]);
+    const shuffledCard = shuffleDeck[0];
+    newCards?.push(shuffledCard);
     shuffleDeck.splice(0, 1);
     // lets update current game deck as player draw a card from current deck
     await this.gameCardsDeckRepository.updateById(gameCardId, {cards: shuffleDeck});
     // lets update player card history as player draw a card from current deck
     await this.playerGameHistoryRepository.updateById(id, {cards: newCards});
-    return newCards;
+    return shuffledCard;
   }
 
-
+  // API to
   @get('/api/game/{game_id}/deck', {
     responses: {
       '200': {

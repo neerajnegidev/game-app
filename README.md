@@ -1,13 +1,17 @@
 # game-app
 
-This app has created using loopback4 https://loopback.io/.
+This app has created using loopback4 https://loopback.io/ and it has deployed on heroku below is the link
 
-Created below tables in MongoDB
+https://custom-game-app.herokuapp.com/explorer/#/
+
+This app have beloe MongoDB collections
 
 1) user ==> it will store player and dealer. Below are the dummy ids
 
     player: 5eda1a251009a00c62a3ac0d , 5eda1a251009a00c62a3ac0e
     dealer: 5eda1a251009a00c62a3ac0f
+
+Objective of dummy user is that we are going to start game among these dummy players.
 
 2) game ==> it will store players who are playing the game and dealer.
 3) game_card_deck ==> it will contain current card deck corresponding to a game.
@@ -19,7 +23,7 @@ Installation Steps=>
   1. clone github repo using https://github.com/neerajnegidev/game-app.git
   2. cd /game-app
   3. npm install
-  4. create mongo database, putting db dump into /db-dump/game-app you may create DB using this dump.
+  4. create mongo database, putting db dump into /db-dump/game-app you may create collection using this dump.
   4. Do the mongo db configuration from file path game-app\src\datasources\mongo.datasource.ts
   5. npm start
   6. Open http://localhost:8080/explorer/#/  it will open implemnted API's in GUI.

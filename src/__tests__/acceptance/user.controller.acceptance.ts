@@ -2,7 +2,7 @@ import {Client, expect} from '@loopback/testlab';
 import {GameAppApplication} from '../..';
 import {setupApplication} from './test-helper';
 
-describe('PingController', () => {
+describe('UserController', () => {
   let app: GameAppApplication;
   let client: Client;
 
@@ -14,8 +14,12 @@ describe('PingController', () => {
     await app.stop();
   });
 
-  it('invokes GET /ping', async () => {
-    const res = await client.get('/ping?msg=world').expect(200);
-    expect(res.body).to.containEql({greeting: 'Hello from LoopBack'});
+  it('exposes api to get players', async () => {
+    await client.get('/api/player').expect(200);
+  });
+
+  it('check player api response', async () => {
+    const response = await client.get('/api/player');
+    expect(response.body).to.Array();
   });
 });
