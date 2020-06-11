@@ -4,7 +4,7 @@ This app has created using loopback4 https://loopback.io/ and it has deployed on
 
 https://custom-game-app.herokuapp.com/explorer/#/
 
-This app have beloe MongoDB collections
+This app have below MongoDB collections
 
 1) user ==> it will store player and dealer. Below are the dummy ids
 
