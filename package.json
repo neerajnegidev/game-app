@@ -58,7 +58,7 @@
     "lodash": "^4.17.15",
     "lodash-es": "^4.17.15",
     "loopback-connector-mongodb": "^5.2.3",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "tslib": "^2.0.0",
     "@loopback/build": "^5.4.2",
     "source-map-support": "^0.5.19",
